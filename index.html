@@ -26,14 +26,54 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header></header>
-    <main class="max-w-6xl mx-auto">
+    <header class="container mx-auto">
+      <nav class="navbar">
+        <div class="flex-1">
+          <span class="btn btn-ghost normal-case text-3xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
+        </div>
+        <div class="flex-2">
+          <ul class="menu menu-horizontal py-2">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="form-control">
+            <input type="text" placeholder="Search" class="input input-bordered w-24 lg:w-auto"/>
+          </div>
+          <button class="btn bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400">Get Ticket</button>
+        </div>
+      </nav>
+    </header>
+    <main class="container mx-auto">
+      <!-- hero section --> 
+        <!-- <div class="flex items-center justify-center h-screen">
+          <img src="Images/1.png" alt="hero" class="max-w-full h-auto" />
+        </div>
+        <div class="aligin-content-center flex justify-end">
+          <div class="w-1/2 py-16 bg-slate-900 rounded-lg text-white">
+            <h1 class="text-4xl pl-4">Meet all the heroes from the field</h1>
+            <p class="text-xxl pl-4 pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis nemo expedita magnam illo molestias quibusdam corporis neque aut ut suscipit qui magni, sapiente quasi laboriosam enim porro itaque voluptates exercitationem!</p>
+          </div>
+        </div>       -->
+        <div class="relative h-screen">
+          <img src="Images/1.png" alt="hero" class="w-full h-full rounded-xl object-cover" />
+          <div class="absolute bottom-8 right-8 w-1/2  py-14 bg-slate-900 rounded-lg text-white">
+            <h1 class="text-4xl pl-4">Meet all the heroes from the field</h1>
+            <p class="text-xxl pl-4 pt-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis nemo expedita magnam illo molestias quibusdam corporis neque aut ut suscipit qui magni, sapiente quasi laboriosam enim porro itaque voluptates exercitationem!
+            </p>
+          </div>
+        </div>
+
+
       <!-- progress -->
       <div class="text-center py-8">
         <div class="py-8 border-t-2 border-b-2 border-dashed">
-          <h3 class="text-4xl font-extrabold text-[#131318] pb-6">
-            Professional Hockeys Club
-          </h3>
+          <h3 class="text-4xl font-extrabold text-[#131318] pb-6">Professional Hockeys Club</h3>
           <p class="font-base font-medium lg: w-4/5 mx-auto">
             Hockey is an ancient Game that is being played in India year wide.
             In earlier times, this Game was being played with a stick and a
@@ -44,13 +84,7 @@
         <div class="flex flex-col lg:flex-row justify-center mt-12 gap-5">
           <!-- progress 1 -->
           <div>
-            <div
-              class="radial-progress text-[#FF4240]"
-              style="--value: 87"
-              role="progressbar"
-            >
-              87%
-            </div>
+            <div class="radial-progress text-[#FF4240]" style="--value: 87"role="progressbar">87%</div>
             <h3 class="text-xl font-semibold pt-6 pb-4">Prayer Facility</h3>
             <p class="text-base text-[#13131899]">
               This Game was being played with a stick and a ball. <br />
