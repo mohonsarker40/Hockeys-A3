@@ -4,20 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hockeys-A3</title>
+
     <!-- google font Manrope -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet"/>
+
     <!-- tailwind and Daisy UI cdn -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css"/>
     <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- custom css -->
     <style>
       .font-manrope {
@@ -25,13 +21,13 @@
       }
     </style>
   </head>
-  <body class="font-manrope">
+  <body class="font-manrope px-2">
     <header class="container mx-auto">
       <nav class="navbar">
         <div class="flex-1">
           <span class="btn btn-ghost normal-case text-3xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
         </div>
-        <div class="flex-2">
+        <div class="flex-2 md-hidden">
           <ul class="menu menu-horizontal py-2">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -49,16 +45,7 @@
       </nav>
     </header>
     <main class="container mx-auto">
-      <!-- hero section --> 
-        <!-- <div class="flex items-center justify-center h-screen">
-          <img src="Images/1.png" alt="hero" class="max-w-full h-auto" />
-        </div>
-        <div class="aligin-content-center flex justify-end">
-          <div class="w-1/2 py-16 bg-slate-900 rounded-lg text-white">
-            <h1 class="text-4xl pl-4">Meet all the heroes from the field</h1>
-            <p class="text-xxl pl-4 pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis nemo expedita magnam illo molestias quibusdam corporis neque aut ut suscipit qui magni, sapiente quasi laboriosam enim porro itaque voluptates exercitationem!</p>
-          </div>
-        </div>       -->
+      <!-- hero section -->
         <div class="relative h-screen">
           <img src="Images/1.png" alt="hero" class="w-full h-full rounded-xl object-cover" />
           <div class="absolute bottom-8 right-8 w-1/2  py-14 bg-slate-900 rounded-lg text-white">
@@ -68,11 +55,9 @@
             </p>
           </div>
         </div>
-
-
-      <!-- progress -->
-      <div class="text-center py-8">
-        <div class="py-8 border-t-2 border-b-2 border-dashed">
+      <!-- progress titile -->
+      <div class="text-center pt-24">
+        <div class="py-12 border-t-2 border-b-2 border-dashed">
           <h3 class="text-4xl font-extrabold text-[#131318] pb-6">Professional Hockeys Club</h3>
           <p class="font-base font-medium lg: w-4/5 mx-auto">
             Hockey is an ancient Game that is being played in India year wide.
@@ -80,7 +65,8 @@
             ball. Hockey is the National Sport of this Country
           </p>
         </div>
-        <!-- radial progress -->
+      
+        <!-- progress radial-->
         <div class="flex flex-col lg:flex-row justify-center mt-12 gap-5">
           <!-- progress 1 -->
           <div>
@@ -138,7 +124,184 @@
           </div>
         </div>
         <div class="border-b-2 border-dashed mt-24"></div>
+
+         <!-- program  titile -->
+      <div class="text-center py-20">
+        <div class=" pb-8 border-b-2 border-dashed">
+          <h3 class="text-4xl font-extrabold text-[#131318] pb-6">Program Sections</h3>
+          <p class="font-base font-medium lg: w-4/5 mx-auto">
+            We have several programs for our players like junior programs, senior programs, and many more. <br />
+          </p>
+        </div>
       </div>
+
+      <!-- programs -->
+      <div class="mx-auto flex flex-col lg:flex-row justify-center gap-5 pb-8">
+        <!-- program 1 half width-->
+        <div class="card image-full w-full lg:w-6/12">
+          <figure>
+            <img src="Images/2.png" alt="img" />
+          </figure>
+          <div class="card-body pt-20">
+            <h2 class="card-title pb-3 pl-2">Junior Program</h2>
+            <p class="w-10/12">
+              Jonior program means young kinds can play in this program. So no worry to think more.
+              You must join our program..
+            </p>
+            <div class="card-actions">
+              <button class="btn btn-primary bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400 border-none">Register Now!</button>
+            </div>
+          </div>
+        </div>
+        <!-- program 2 half width-->
+        <div class="card image-full w-full lg:w-6/12">
+          <figure>
+          <img src="Images/3.png" alt="img" />
+          </figure>
+        <div class="card-body pt-20">
+          <h2 class="card-title pb-3 pl-2">Teeneger Program</h2>
+          <p class="w-10/12">
+            Teeneger program means young kinds can play in this program. So no worry to think more.
+            You must join our program..
+          </p>
+          <div class="card-actions">
+            <button class="btn btn-primary bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400 border-none">Register Now!</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- program 3 full width-->
+      <div class=" mx-auto card image-full w-full">
+        <img src="Images/4.png" class="w-full" alt="img" />
+      <div class="card-body lg:pt-36">
+        <h2 class="card-title lg:text-2xl pb-3 pl-2">Professional Program</h2>
+        <p class="lg:w-1/2 lg:text-lg">
+          Professional program means young kinds can play in this program. So no worry to think more.
+          You must join our program as soon as posible..
+        </p>
+        <div class="card-actions ">
+          <button class="btn btn-primary bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400 border-none">Register Now!</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prducts  titile -->
+    <div class="text-center py-20">
+      <div class="py-12 border-b-2 border-t-2 border-dashed">
+        <h3 class="text-4xl font-extrabold text-[#131318] pb-6">Product Sections</h3>
+        <p class="font-base font-medium lg: w-4/5 mx-auto">
+          We have several Product for our customer like cap, helmet, and many more. <br />
+        </p>
+      </div>
+    </div>
+    
+    <!-- Products -->
+     <div class="mx-auto flex flex-col lg:flex-row justify-center gap-5 pb-8">
+      <div class="card lg:card-side bg-base-100 border-2 p-4">
+        <figure>
+          <img src="Images/5.png" alt="Album" />
+        </figure>
+        <div class="card-body">
+          <div class="d-flex">
+            <p><i class="fa-solid fa-star"></i></p>
+          </div>
+          <h2 class="card-title">Denim Jaket</h2>
+          <p>Click the button to buy the product.</p>
+          <div class="card-actions justify-between">
+            <span class="text-rose-700">Price- $ 50.00</span>
+            <button class="btn btn-primary  bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400 border-none btn-sm">buy</button>
+          </div>
+        </div>
+      </div>
+      <div class="card lg:card-side bg-base-100 border-2 p-4">
+        <figure>
+          <img src="Images/6.png" alt="Album" />
+        </figure>
+        <div class="card-body">
+          <div class="d-flex">
+            <p><i class="fa-solid fa-star"></i></p>
+          </div>
+          <h2 class="card-title">Football</h2>
+          <p>Click the button to buy the product.</p>
+          <div class="card-actions justify-between">
+            <span class="text-rose-700">Price- $ 20.00</span>
+            <button class="btn btn-primary  bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400 border-none btn-sm">buy</button>
+          </div>
+        </div>
+      </div>
+    
+      </div>
+      <div class="mx-auto flex flex-col lg:flex-row justify-center gap-5 pb-8">
+        <div class="card lg:card-side bg-base-100 border-2 p-4">
+          <figure>
+            <img src="Images/7.png" alt="Album" />
+          </figure>
+          <div class="card-body">
+            <div class="d-flex">
+              <p><i class="fa-solid fa-star"></i></p>
+            </div>
+            <h2 class="card-title">Cap</h2>
+            <p>Click the button to buy the product.</p>
+            <div class="card-actions justify-between">
+              <span class="text-rose-700">Price- $ 10.00</span>
+              <button class="btn btn-primary  bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400 border-none btn-sm">buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="card lg:card-side bg-base-100 border-2 p-4">
+          <figure>
+            <img src="Images/8.png" alt="Album" />
+          </figure>
+          <div class="card-body">
+            <div class="d-flex">
+              <p><i class="fa-solid fa-star"></i></p>
+            </div>
+            <h2 class="card-title">Jercy</h2>
+            <p>Click the button to buy the product.</p>
+            <div class="card-actions justify-between">
+              <span class="text-rose-700">Price- $ 20.00</span>
+              <button class="btn btn-primary  bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400 border-none btn-sm">buy</button>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <div class="mx-auto flex flex-col lg:flex-row justify-center gap-5 pb-8">
+        <div class="card lg:card-side bg-base-100 border-2 p-4">
+          <figure>
+            <img src="Images/9.png" alt="Album" />
+          </figure>
+          <div class="card-body">
+            <div class="d-flex">
+              <p><i class="fa-solid fa-star"></i></p>
+            </div>
+            <h2 class="card-title">Hemet</h2>
+            <p>Click the button to buy the product.</p>
+            <div class="card-actions justify-between">
+              <span class="text-rose-700">Price- $ 60.00</span>
+              <button class="btn btn-primary bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400 border-none btn-sm">buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="card lg:card-side bg-base-100 border-2 p-4">
+          <figure>
+            <img src="Images/10.png" alt="Album" />
+          </figure>
+          <div class="card-body">
+            <div class="d-flex">
+              <p><i class="fa-solid fa-star"></i></p>
+            </div>
+            <h2 class="card-title">Scocer</h2>
+            <p>Click the button to buy the product.</p>
+            <div class="card-actions justify-between">
+              <span class="text-rose-700">Price- $ 15.00</span>
+              <button class="btn btn-primary  bg-orange-500 ml-4 text-gray-50 hover:bg-orange-400 border-none btn-sm">buy</button>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    
     </main>
     <footer></footer>
   </body>
